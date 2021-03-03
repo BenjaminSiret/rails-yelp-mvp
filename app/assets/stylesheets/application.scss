@@ -11,3 +11,21 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6C5CE7;
+    width: 100%;
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
